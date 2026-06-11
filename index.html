@@ -1,1 +1,148 @@
-<!DOCTYPE html><html><head><title>Edzilla</title></head><body><h1>Edzilla</h1><p>Developer of <a href="https://play.google.com/store/apps/details?id=info.edzilla.speedalert">Zone Alert</a>.</p><p>Contact: edzilla@edzilla.info</p></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zone Alert — School & playground zone alerts for Canadian drivers</title>
+<meta name="description" content="Zone Alert warns you before you enter school, playground, and reduced-speed zones. 23 Canadian cities. Your location never leaves your phone.">
+<style>
+  :root {
+    --red-deep: #9b111e;
+    --red: #c81a2e;
+    --red-light: #ffe0e0;
+    --ink: #222;
+    --muted: #6b6b6b;
+    --bg: #faf8f7;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--ink); background: var(--bg); line-height: 1.6; }
+  a { color: var(--red); }
+
+  .hero {
+    background: linear-gradient(160deg, var(--red-deep) 0%, var(--red) 100%);
+    color: #fff;
+    padding: 64px 24px 80px;
+    text-align: center;
+  }
+  .hero img.icon {
+    width: 112px; height: 112px; border-radius: 26px;
+    box-shadow: 0 12px 40px rgba(0,0,0,.35);
+  }
+  .hero h1 { font-size: 3rem; letter-spacing: -1px; margin: 24px 0 8px; }
+  .hero p.tag { font-size: 1.25rem; color: var(--red-light); max-width: 540px; margin: 0 auto 36px; }
+  .cta-row { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+  .btn {
+    display: inline-block; padding: 14px 28px; border-radius: 999px;
+    font-weight: 600; text-decoration: none; font-size: 1.05rem;
+  }
+  .btn-primary { background: #fff; color: var(--red-deep); }
+  .btn-primary:hover { transform: translateY(-1px); box-shadow: 0 6px 18px rgba(0,0,0,.25); }
+  .btn-ghost { border: 2px solid rgba(255,255,255,.7); color: #fff; }
+  .hero .note { margin-top: 14px; font-size: .9rem; color: rgba(255,255,255,.75); }
+
+  section { max-width: 960px; margin: 0 auto; padding: 56px 24px; }
+  h2 { font-size: 1.8rem; margin-bottom: 28px; text-align: center; letter-spacing: -.5px; }
+
+  .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; }
+  .card {
+    background: #fff; border-radius: 16px; padding: 24px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.06);
+  }
+  .card .emoji { font-size: 1.8rem; }
+  .card h3 { margin: 10px 0 6px; font-size: 1.1rem; }
+  .card p { color: var(--muted); font-size: .95rem; }
+
+  .shots { display: flex; gap: 28px; justify-content: center; flex-wrap: wrap; }
+  .shots img {
+    width: 260px; border-radius: 22px;
+    box-shadow: 0 14px 44px rgba(0,0,0,.18);
+    border: 1px solid rgba(0,0,0,.08);
+  }
+
+  .cities { text-align: center; }
+  .cities .prov { margin-bottom: 10px; color: var(--muted); }
+  .cities .prov b { color: var(--ink); }
+
+  .privacy-band {
+    background: #fff; border-top: 1px solid #eee; border-bottom: 1px solid #eee;
+  }
+  .privacy-band section { padding: 44px 24px; text-align: center; }
+  .privacy-band p { max-width: 620px; margin: 0 auto; color: var(--muted); }
+
+  footer { padding: 36px 24px 48px; text-align: center; color: var(--muted); font-size: .9rem; }
+  footer a { margin: 0 10px; }
+  .disclaimer { max-width: 640px; margin: 18px auto 0; font-size: .8rem; color: #999; }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <img class="icon" src="icon.png" alt="Zone Alert icon">
+  <h1>Zone Alert</h1>
+  <p class="tag">Know before you enter a school or playground zone — across 23 Canadian cities.</p>
+  <div class="cta-row">
+    <a class="btn btn-primary" href="https://play.google.com/apps/testing/info.edzilla.speedalert">Become a tester</a>
+    <a class="btn btn-ghost" href="mailto:edzilla@edzilla.info?subject=Zone%20Alert">Contact</a>
+  </div>
+  <p class="note">In closed testing — coming soon to Google Play.</p>
+</div>
+
+<section>
+  <h2>Built for the school run, the commute, and everything between</h2>
+  <div class="features">
+    <div class="card"><div class="emoji">🔔</div><h3>Alerts before it matters</h3>
+      <p>Notification, vibration, and voice the moment you approach or enter a reduced-speed zone — even with the screen off.</p></div>
+    <div class="card"><div class="emoji">🇨🇦</div><h3>23 cities, 7 provinces</h3>
+      <p>Official municipal open data, refreshed weekly. Calgary is free; every other city comes with the one-time Premium unlock.</p></div>
+    <div class="card"><div class="emoji">🕢</div><h3>Knows the hours</h3>
+      <p>Playground zones that only apply 7:30–21:00 won't bother you at midnight. Zone schedules are respected automatically.</p></div>
+    <div class="card"><div class="emoji">🗣️</div><h3>Eyes on the road</h3>
+      <p>Short spoken alerts — “30 zone ahead” — so you never need to glance at the phone.</p></div>
+    <div class="card"><div class="emoji">🔒</div><h3>Private by design</h3>
+      <p>Your location is processed entirely on your device. No account, no sign-up, nothing sent to our servers. Ever.</p></div>
+    <div class="card"><div class="emoji">💎</div><h3>One-time Premium</h3>
+      <p>No subscription. Pay once for all cities, advance warnings, voice alerts, unlimited custom zones, and no ads.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>See it in action</h2>
+  <div class="shots">
+    <img src="screenshot_map.png" alt="Live map with reduced-speed zones highlighted">
+    <img src="screenshot_cities.png" alt="City picker with 23 Canadian cities">
+  </div>
+</section>
+
+<div class="privacy-band">
+  <section>
+    <h2>Your location stays yours</h2>
+    <p>Zone Alert compares your position against zone boundaries on your phone.
+    It is never transmitted, stored remotely, or shared — read the
+    <a href="https://edzilla2000.github.io/zonealert-data/privacy.html">privacy policy</a>,
+    it's short.</p>
+  </section>
+</div>
+
+<section class="cities">
+  <h2>Supported cities</h2>
+  <p class="prov"><b>Alberta</b> — Calgary · Edmonton · Lethbridge · Airdrie · St. Albert</p>
+  <p class="prov"><b>British Columbia</b> — Surrey · Victoria · Coquitlam · Abbotsford</p>
+  <p class="prov"><b>Saskatchewan</b> — Saskatoon · Regina</p>
+  <p class="prov"><b>Manitoba</b> — Winnipeg</p>
+  <p class="prov"><b>Ontario</b> — Mississauga · London · Windsor · Markham</p>
+  <p class="prov"><b>Quebec</b> — Québec City · Gatineau · Sherbrooke · Trois-Rivières</p>
+  <p class="prov"><b>New Brunswick</b> — Moncton · Saint John · Fredericton</p>
+</section>
+
+<footer>
+  <a href="https://edzilla2000.github.io/zonealert-data/privacy.html">Privacy policy</a>
+  <a href="https://github.com/Edzilla2000/zonealert-data">Zone data</a>
+  <a href="mailto:edzilla@edzilla.info">edzilla@edzilla.info</a>
+  <p class="disclaimer">Zone Alert is a driving aid, not a substitute for attention.
+  Speed limits and zone hours are determined by posted signage, which always
+  takes precedence. Zone data is sourced from municipal open data portals and
+  may be incomplete or out of date.</p>
+</footer>
+
+</body>
+</html>
