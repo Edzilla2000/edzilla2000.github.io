@@ -1,0 +1,9 @@
+{
+  "default": "9001",
+  "schoolCode": "DEMO01",
+  "attached": ["9001"],
+  "routes": [
+    { "id": "9001", "name": "AM 12 - Demo Elementary School" },
+    { "id": "9002", "name": "PM 12 - Demo Elementary School" }
+  ]
+}
