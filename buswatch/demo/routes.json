@@ -3,7 +3,7 @@
   "schoolCode": "DEMO01",
   "attached": ["9001"],
   "routes": [
-    { "id": "9001", "name": "AM 12 - Demo Elementary School" },
-    { "id": "9002", "name": "PM 12 - Demo Elementary School" }
+    { "id": "9001", "name": "Route 12 - Demo Elementary School" },
+    { "id": "9002", "name": "Route 47 - Demo Elementary School" }
   ]
 }
