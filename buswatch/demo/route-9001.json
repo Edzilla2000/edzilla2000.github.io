@@ -1,0 +1,70 @@
+{
+  "bus": "D1042",
+  "cycleMinutes": 38,
+  "utcOffsetHours": -6,
+  "notes": {
+    "dispatchComments": "Demo route - no real bus, no real children."
+  },
+  "stops": [
+    {
+      "lat": 51.092,
+      "lon": -114.138,
+      "name": "Elm Crescent & Wren Way",
+      "type": "Street Address"
+    },
+    {
+      "lat": 51.0935,
+      "lon": -114.133,
+      "name": "Wren Way & Falcon Road",
+      "type": "Street Address"
+    },
+    {
+      "lat": 51.0951,
+      "lon": -114.1288,
+      "name": "Falcon Road & Birchwood Gate",
+      "type": "Street Address"
+    },
+    {
+      "lat": 51.0968,
+      "lon": -114.124,
+      "name": "Birchwood Gate & Aspen Close",
+      "type": "Street Address"
+    },
+    {
+      "lat": 51.0982,
+      "lon": -114.1195,
+      "name": "Aspen Close & Cedar Bay",
+      "type": "Street Address"
+    },
+    {
+      "lat": 51.0995,
+      "lon": -114.115,
+      "name": "Cedar Bay & Juniper Link",
+      "type": "Street Address"
+    },
+    {
+      "lat": 51.101,
+      "lon": -114.1105,
+      "name": "Juniper Link & Willow Rise",
+      "type": "Street Address"
+    },
+    {
+      "lat": 51.1024,
+      "lon": -114.106,
+      "name": "Willow Rise & Alder Mews",
+      "type": "Street Address"
+    },
+    {
+      "lat": 51.1038,
+      "lon": -114.1015,
+      "name": "Alder Mews & Spruce Court",
+      "type": "Street Address"
+    },
+    {
+      "lat": 51.105,
+      "lon": -114.0975,
+      "name": "Demo Elementary School",
+      "type": "School"
+    }
+  ]
+}
