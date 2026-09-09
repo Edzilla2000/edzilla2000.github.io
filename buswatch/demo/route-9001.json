@@ -3,7 +3,7 @@
   "cycleMinutes": 38,
   "utcOffsetHours": -6,
   "notes": {
-    "dispatchComments": "Demo route - no real bus, no real children."
+    "dispatchComments": "Sample data - this is a demonstration route."
   },
   "stops": [
     {
